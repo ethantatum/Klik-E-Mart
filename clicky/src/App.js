@@ -13,6 +13,10 @@ class App extends React.Component {
         currentScore: 0
     };
 
+    componentDidMount () {
+        console.log(this.state.images)
+    }
+
     clickImage = id => {
         const shuffleArr = this.shuffleImages(images);
         this.setState({ images: shuffleArr });
@@ -49,8 +53,8 @@ class App extends React.Component {
                         <strong>Score: {this.state.currentScore} | High Score: {this.state.highScore}</strong>
                     </p>
                 </h3>
-                <Container  
-                    imageGrid={this.state.images.map(image => (
+                <Container>
+                    {this.state.images.map(image => (
                         <Image
                             clickImage={this.clickImage}
                             id={image.id}
@@ -58,8 +62,9 @@ class App extends React.Component {
                             name={image.name}
                             image={image.image}
                         />
-                    ))}
-                />
+                        )
+                    )}
+                </Container>  
                 
             </div>
         );

@@ -1,12 +1,10 @@
-.pictureBox {
-    outline: 4px ridge #fbc431;
-    outline-offset: 2px;
-}
+
 
 .img-thumbnail {
     cursor: pointer;
 }
 
 .img-thumbnail:hover {
+    background-color: darkorange;
     opacity: 0.65;
 }

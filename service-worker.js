@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Klik-E-Mart/precache-manifest.0de3e5337b1248c7258df6ab2a825460.js"
+  "/Klik-E-Mart/precache-manifest.223700070913208e5641506f15169e51.js"
 );
 
 workbox.clientsClaim();

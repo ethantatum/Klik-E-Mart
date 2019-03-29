@@ -1,0 +1,10 @@
+
+
+.img-thumbnail {
+    cursor: pointer;
+}
+
+.img-thumbnail:hover {
+    background-color: darkorange;
+    opacity: 0.65;
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "/images/apu1.jpg",
+        "name": "apu1"
+    },
+    {
+        "id": 2,
+        "image": "/images/apu2.jpg",
+        "name": "apu2"
+    },
+    {
+        "id": 3,
+        "image": "/images/moe1.JPG",
+        "name": "moe1"
+    },
+    {
+        "id": 4,
+        "image": "/images/moe2.jpg",
+        "name": "moe2"
+    },
+    {
+        "id": 5,
+        "image": "/images/homer1.jpg",
+        "name": "homer1"
+    },
+    {
+        "id": 6,
+        "image": "/images/homer2.jpg",
+        "name": "homer2"
+    },
+    {
+        "id": 7,
+        "image": "/images/lisa1.jpg",
+        "name": "lisa1"
+    },
+    {
+        "id": 8,
+        "image": "/images/lisa2.jpg",
+        "name": "lisa2"
+    },
+    {
+        "id": 9,
+        "image": "/images/marge1.jpg",
+        "name": "marge1"
+    },
+    {
+        "id": 10,
+        "image": "/images/marge2.jpg",
+        "name": "marge2"
+    },
+    {
+        "id": 11,
+        "image": "/images/bart1.jpg",
+        "name": "bart1"
+    },
+    {
+        "id": 12,
+        "image": "/images/bart2.jpg",
+        "name": "bart2"
+    }
+]

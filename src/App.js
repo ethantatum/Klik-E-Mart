@@ -46,7 +46,7 @@ class App extends React.Component {
         return (
             <div className="App">
                 <header className="container mt-2">
-                    <img className="title-image img-fluid" src='/images/sign2.png' alt="klik-e-mart"/>
+                    <img className="title-image img-fluid" src='./images/sign2.png' alt="klik-e-mart"/>
                 </header>
                 <h3 className="container text-center mt-4">
                     <strong>Click on an image to earn points, but don't click on any image more than once!</strong>

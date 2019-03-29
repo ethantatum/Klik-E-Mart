@@ -2,12 +2,15 @@
   "name": "clicky",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ethantatum.github.io/Klik-E-Mart",
   "dependencies": {
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

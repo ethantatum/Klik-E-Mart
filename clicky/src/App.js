@@ -2,6 +2,7 @@ import React from 'react';
 import Image from './components/Image';
 import Container from './components/Container';
 import images from './images.json';
+import './App.css';
 
 
 
@@ -28,8 +29,8 @@ class App extends React.Component {
                 currentScore: this.state.currentScore + 1
             });
         }
-        if(this.state.currentScore > this.state.highScore) {
-            this.setState({ highScore: this.state.currentScore });
+        if(this.state.currentScore >= this.state.highScore) {
+            this.setState({ highScore: this.state.currentScore + 1});
         }
     }
 
@@ -44,10 +45,10 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <header className="App-header">
-                    <h1 className="App-title">Who Needs the Klik-E-Mart? You dooooooo!</h1>
+                <header className="container mt-2">
+                    <img className="title-image img-fluid" src='/images/sign2.png' alt="klik-e-mart"/>
                 </header>
-                <h3 className="App-intro">
+                <h3 className="container text-center mt-4">
                     <strong>Click on an image to earn points, but don't click on any image more than once!</strong>
                     <p className="Current-score">
                         <strong>Score: {this.state.currentScore} | High Score: {this.state.highScore}</strong>

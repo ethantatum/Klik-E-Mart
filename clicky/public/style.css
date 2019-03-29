@@ -1,0 +1,9 @@
+#background {
+    background-image: url('images/clouds.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    font-family: 'Gorditas', cursive;
+}

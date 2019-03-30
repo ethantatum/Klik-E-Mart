@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/Klik-E-Mart/static/js/runtime~main.55db3dd2.js"
   },
   {
-    "revision": "7db66bc355da46829fe8",
-    "url": "/Klik-E-Mart/static/js/main.9e90294b.chunk.js"
+    "revision": "f584195fc2277f8bde63",
+    "url": "/Klik-E-Mart/static/js/main.6bd5825e.chunk.js"
   },
   {
     "revision": "dd0ed99a380f8d225736",
     "url": "/Klik-E-Mart/static/js/2.884c28c3.chunk.js"
   },
   {
-    "revision": "7db66bc355da46829fe8",
+    "revision": "f584195fc2277f8bde63",
     "url": "/Klik-E-Mart/static/css/main.ebb04d62.chunk.css"
   },
   {
-    "revision": "0808dd8bb7abe29e9a4b9c4816dd020c",
+    "revision": "d74b89ae21cd364df7745b3e93e163c9",
     "url": "/Klik-E-Mart/index.html"
   }
 ];

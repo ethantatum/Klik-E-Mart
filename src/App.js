@@ -11,7 +11,8 @@ class App extends React.Component {
         images,
         clickedArr: [],
         highScore: 0,
-        currentScore: 0
+        currentScore: 0,
+        message: ""
     };
 
     componentDidMount () {
@@ -22,15 +23,26 @@ class App extends React.Component {
         const shuffleArr = this.shuffleImages(images);
         this.setState({ images: shuffleArr });
         if(this.state.clickedArr.includes(id)) {
-            this.setState({ currentScore: 0, clickedArr: [] });
+            this.setState({ 
+                currentScore: 0, 
+                clickedArr: [], 
+                message: "D'oh! You already clicked that one...try again!" 
+            });
+        } else if(this.state.currentScore === 12) {
+            this.setState({
+                message: "Excellent...you won the game!",
+                currentScore: 0,
+                clickedArr: []
+            });
         } else {
             this.setState({
                 clickedArr: this.state.clickedArr.concat([id]),
-                currentScore: this.state.currentScore + 1
+                currentScore: this.state.currentScore + 1,
+                message: "Woohoo!"
             });
         }
-        if(this.state.currentScore >= this.state.highScore) {
-            this.setState({ highScore: this.state.currentScore + 1});
+        if(this.state.currentScore > this.state.highScore) {
+            this.setState({ highScore: this.state.currentScore + 1 });
         }
     }
 
@@ -52,6 +64,9 @@ class App extends React.Component {
                     <strong>Click on an image to earn points, but don't click on any image more than once!</strong>
                     <p className="Current-score">
                         <strong>Score: {this.state.currentScore} | High Score: {this.state.highScore}</strong>
+                    </p>
+                    <p className="Message">
+                        <strong>{this.state.message}</strong>
                     </p>
                 </h3>
                 <Container>

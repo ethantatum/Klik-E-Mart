@@ -4,7 +4,9 @@
   "private": true,
   "homepage": "https://ethantatum.github.io/Klik-E-Mart",
   "dependencies": {
+    "express-handlebars": "^3.1.0",
     "gh-pages": "^2.0.1",
+    "js-yaml": "^3.13.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"

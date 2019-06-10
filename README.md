@@ -1,3 +1,9 @@
+## Klik-E-Mart
+
+Check it out here! (https://ethantatum.github.io/Klik-E-Mart/)
+
+### Built with React - users try to select all images without clicking any image more than once. Sounds easy, right? What if I told you the images randomly shuffle on every click...d'oh!!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
